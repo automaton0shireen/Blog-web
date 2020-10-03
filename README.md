@@ -1,4 +1,4 @@
 # Blog-web
-A simple blog website.
+A simple blog website developed using python.
 
 
