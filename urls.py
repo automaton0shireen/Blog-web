@@ -28,6 +28,10 @@ urlpatterns = [
     path('profile/', user_view.profile, name= 'profile'),
     path('', include('blog.urls')),
 
+    """ Hactober changes """
+    path('blog/', include('blog.urls')),
+
+    """ hactober changes ends """
 ]
 
 if settings.DEBUG:
